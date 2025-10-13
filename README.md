@@ -2,8 +2,11 @@
 
 A modern, lightweight, and powerful WebVTT subtitle editor that runs entirely in your browser. No installation, no signup, no cloud dependencies – just one HTML file.
 
-![VTT Editor Pro v2 Interface](screenshot.png)
-![](screenshot1.png)
+**Clean starting point:**
+![VTT Editor Pro v2 - Empty State](screenshot-empty.png)
+
+**In action with live preview:**
+![VTT Editor Pro v2 - Active Editing](screenshot-active.png)
 
 ## ✨ Features
 
