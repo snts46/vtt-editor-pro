@@ -26,7 +26,7 @@ A modern, lightweight, and powerful WebVTT subtitle editor that runs entirely in
 - Visual waveform for accurate timing
 
 ### 🚀 **Technical Highlights**
-- **1966 lines** of vanilla JavaScript – no frameworks
+- **1961 lines** of vanilla JavaScript – no frameworks
 - **~200 MB RAM** usage
 - **Offline-first**: Works without internet connection
 - **Single file**: Just download and open in your browser
