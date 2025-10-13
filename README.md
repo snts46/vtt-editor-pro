@@ -120,7 +120,7 @@ Found a bug or have a suggestion? [Open an issue](https://github.com/RDTvlokip/v
 
 ## 📄 License
 
-This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0) - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0) - see the [LICENSE](LICENSE.md) file for details.
 
 **You are free to:**
 - Share and adapt the code for non-commercial purposes
