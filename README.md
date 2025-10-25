@@ -96,8 +96,8 @@ python -m http.server 8000
 
 ### v2.1 (Coming Soon)
 - [ ] Visual resize handles on regions
-- [ ] Snap-to-grid alignment
-- [ ] Batch text editing
+- [X] Snap-to-grid alignment
+- [X] Batch text editing
 
 ### v3.0 (Planned)
 - [ ] Whisper API integration for auto-transcription
